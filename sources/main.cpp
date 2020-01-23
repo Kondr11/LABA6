@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <string>
-#include <picosha2.h>
+#include <1/picosha2.h>
 #include <thread>
 #include <boost/lexical_cast.hpp>
 #include <boost/log/sinks.hpp>
