@@ -53,7 +53,7 @@ target_link_libraries(
         Boost::system
 )
 
-target_link_libraries(tests GTest::main template)
+target_link_libraries(tests ${PROJECT_NAME} GTest::main)
 
 enable_testing()
 add_test(NAME unit_tests COMMAND tests) 
