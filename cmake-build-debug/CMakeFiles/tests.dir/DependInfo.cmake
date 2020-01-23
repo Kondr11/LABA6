@@ -4,14 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Git/lab-06-multithreads/sources/main.cpp" "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/Threads.dir/sources/main.cpp.obj"
+  "D:/Git/lab-06-multithreads/tests/test.cpp" "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/tests.dir/tests/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "BOOST_ALL_NO_LIB=1"
-  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

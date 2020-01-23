@@ -57,6 +57,17 @@ CMAKE_BINARY_DIR = D:\Git\lab-06-multithreads\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	echo >nul && "D:\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache\fast: edit_cache
+
+.PHONY : edit_cache\fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -78,17 +89,6 @@ test:
 test\fast: test
 
 .PHONY : test\fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "D:\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache\fast: edit_cache
-
-.PHONY : edit_cache\fast
 
 # The main all target
 all: cmake_check_build_system
@@ -123,6 +123,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named header
+
+# Build rule for target.
+header: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) header
+.PHONY : header
+
+# fast build rule for target.
+header\fast:
+	$(MAKE) -f CMakeFiles\header.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\header.dir\build
+.PHONY : header\fast
+
+#=============================================================================
 # Target rules for targets named Threads
 
 # Build rule for target.
@@ -134,6 +147,19 @@ Threads: cmake_check_build_system
 Threads\fast:
 	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\build
 .PHONY : Threads\fast
+
+#=============================================================================
+# Target rules for targets named tests
+
+# Build rule for target.
+tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) tests
+.PHONY : tests
+
+# fast build rule for target.
+tests\fast:
+	$(MAKE) -f CMakeFiles\tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tests.dir\build
+.PHONY : tests\fast
 
 sources\main.obj: sources\main.cpp.obj
 
@@ -168,7 +194,7 @@ sources\source.obj: sources\source.cpp.obj
 
 # target to build an object file
 sources\source.cpp.obj:
-	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\sources\source.cpp.obj
+	$(MAKE) -f CMakeFiles\header.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\header.dir\sources\source.cpp.obj
 .PHONY : sources\source.cpp.obj
 
 sources\source.i: sources\source.cpp.i
@@ -177,7 +203,7 @@ sources\source.i: sources\source.cpp.i
 
 # target to preprocess a source file
 sources\source.cpp.i:
-	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\sources\source.cpp.i
+	$(MAKE) -f CMakeFiles\header.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\header.dir\sources\source.cpp.i
 .PHONY : sources\source.cpp.i
 
 sources\source.s: sources\source.cpp.s
@@ -186,7 +212,7 @@ sources\source.s: sources\source.cpp.s
 
 # target to generate assembly for a file
 sources\source.cpp.s:
-	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\sources\source.cpp.s
+	$(MAKE) -f CMakeFiles\header.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\header.dir\sources\source.cpp.s
 .PHONY : sources\source.cpp.s
 
 tests\test.obj: tests\test.cpp.obj
@@ -195,7 +221,7 @@ tests\test.obj: tests\test.cpp.obj
 
 # target to build an object file
 tests\test.cpp.obj:
-	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\tests\test.cpp.obj
+	$(MAKE) -f CMakeFiles\tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tests.dir\tests\test.cpp.obj
 .PHONY : tests\test.cpp.obj
 
 tests\test.i: tests\test.cpp.i
@@ -204,7 +230,7 @@ tests\test.i: tests\test.cpp.i
 
 # target to preprocess a source file
 tests\test.cpp.i:
-	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\tests\test.cpp.i
+	$(MAKE) -f CMakeFiles\tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tests.dir\tests\test.cpp.i
 .PHONY : tests\test.cpp.i
 
 tests\test.s: tests\test.cpp.s
@@ -213,7 +239,7 @@ tests\test.s: tests\test.cpp.s
 
 # target to generate assembly for a file
 tests\test.cpp.s:
-	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\tests\test.cpp.s
+	$(MAKE) -f CMakeFiles\tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tests.dir\tests\test.cpp.s
 .PHONY : tests\test.cpp.s
 
 # Help Target
@@ -222,10 +248,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... edit_cache
+	@echo ... header
 	@echo ... Threads
+	@echo ... tests
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... edit_cache
 	@echo ... sources/main.obj
 	@echo ... sources/main.i
 	@echo ... sources/main.s

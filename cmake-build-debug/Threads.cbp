@@ -5,13 +5,71 @@
 		<Option title="Threads"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\tools\;CMake Files\tools\gate\;CMake Files\.hunter\;CMake Files\.hunter\_Base\;CMake Files\.hunter\_Base\Download\;CMake Files\.hunter\_Base\Download\Hunter\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\configs\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\schemes\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\filesystem\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\log\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\system\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\thread\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\GTest\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\find\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\schemes\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\scripts\;CMake Files\.hunter\_Base\9a3594a\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__filesystem\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__system\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\GTest\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\Boost\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\GTest\;CMake Files\.hunter\_Base\Cache\;CMake Files\.hunter\_Base\Cache\meta\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\1.70.0-p0\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\1.70.0-p0\e6bb97b\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\1.70.0-p0\e6bb97b\b074c24\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\1.70.0-p0\e6bb97b\b074c24\4830b34\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__filesystem\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__filesystem\1.70.0-p0\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__filesystem\1.70.0-p0\e6bb97b\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__filesystem\1.70.0-p0\e6bb97b\b074c24\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__filesystem\1.70.0-p0\e6bb97b\b074c24\4830b34\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__filesystem\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__log\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__log\1.70.0-p0\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__log\1.70.0-p0\e6bb97b\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__log\1.70.0-p0\e6bb97b\b074c24\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__log\1.70.0-p0\e6bb97b\b074c24\4830b34\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__log\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__system\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__system\1.70.0-p0\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__system\1.70.0-p0\e6bb97b\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__system\1.70.0-p0\e6bb97b\b074c24\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__system\1.70.0-p0\e6bb97b\b074c24\4830b34\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__system\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__thread\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__thread\1.70.0-p0\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__thread\1.70.0-p0\e6bb97b\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__thread\1.70.0-p0\e6bb97b\b074c24\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__thread\1.70.0-p0\e6bb97b\b074c24\4830b34\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__thread\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\GTest\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\GTest\1.8.0-hunter-p11\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\GTest\1.8.0-hunter-p11\76c6aec\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\GTest\1.8.0-hunter-p11\76c6aec\0113760\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\GTest\1.8.0-hunter-p11\76c6aec\0113760\4830b34\;CMake Files\.hunter\_Base\Cache\meta\ab7ade2\GTest\1.8.0-hunter-p11\76c6aec\0113760\4830b34\e5fa44f\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_3rdParty\;CMake Files\cmake-build-debug\_3rdParty\Hunter\;CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\;CMake Files\cmake-build-debug\_3rdParty\Hunter\config-id\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tools\;CMake Files\tools\gate\;CMake Files\.hunter\;CMake Files\.hunter\_Base\;CMake Files\.hunter\_Base\Download\;CMake Files\.hunter\_Base\Download\Hunter\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\configs\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\filesystem\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\log\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\system\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\thread\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\GTest\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\find\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\scripts\;CMake Files\.hunter\_Base\9a3594a\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\Boost\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\GTest\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_3rdParty\;CMake Files\cmake-build-debug\_3rdParty\Hunter\;CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\;CMake Files\cmake-build-debug\_3rdParty\Hunter\config-id\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/Git/lab-06-multithreads/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Git/lab-06-multithreads/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="header">
+				<Option output="D:/Git/lab-06-multithreads/cmake-build-debug/headerd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Git/lab-06-multithreads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Git/lab-06-multithreads/include"/>
+					<Add directory="D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 header"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="header/fast">
+				<Option output="D:/Git/lab-06-multithreads/cmake-build-debug/headerd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Git/lab-06-multithreads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Git/lab-06-multithreads/include"/>
+					<Add directory="D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 header/fast"/>
 					<CompileFile command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -69,6 +127,56 @@
 					<DistClean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tests">
+				<Option output="D:/Git/lab-06-multithreads/cmake-build-debug/tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Git/lab-06-multithreads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Git/lab-06-multithreads/include"/>
+					<Add directory="C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/include"/>
+					<Add directory="D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 tests"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="D:/Git/lab-06-multithreads/cmake-build-debug/tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Git/lab-06-multithreads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Git/lab-06-multithreads/include"/>
+					<Add directory="C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/include"/>
+					<Add directory="D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 tests/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="D:/Git/lab-06-multithreads/cmake-build-debug"/>
 				<Option type="4"/>
@@ -89,25 +197,15 @@
 					<DistClean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/Git/lab-06-multithreads/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\Git\lab-06-multithreads\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="D:/Git/lab-06-multithreads/sources/main.cpp">
 			<Option target="Threads"/>
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/sources/source.cpp">
-			<Option target="Threads"/>
+			<Option target="header"/>
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/tests/test.cpp">
-			<Option target="Threads"/>
+			<Option target="tests"/>
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -361,12 +459,6 @@
 		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/hunter.cmake">
 			<Option virtualFolder="CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\"/>
 		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/schemes/url_sha1_boost.cmake.in">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\schemes\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/schemes/url_sha1_boost_library.cmake.in">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\schemes\"/>
-		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/filesystem/hunter.cmake">
 			<Option virtualFolder="CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\filesystem\"/>
 		</Unit>
@@ -385,68 +477,11 @@
 		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/find/FindBoost.cmake">
 			<Option virtualFolder="CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\find\"/>
 		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/schemes/url_sha1_cmake.cmake.in">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\schemes\"/>
-		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/scripts/create-toolchain-info.cmake">
 			<Option virtualFolder="CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\scripts\"/>
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/config.cmake">
 			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/args.cmake.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/internal_deps.id.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/types.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__filesystem/args.cmake.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__filesystem\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__filesystem/internal_deps.id.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__filesystem\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__filesystem/types.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__filesystem\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__log/args.cmake.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__log/internal_deps.id.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__log/types.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__system/args.cmake.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__system\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__system/internal_deps.id.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__system\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__system/types.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__system\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__thread/args.cmake.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__thread/internal_deps.id.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__thread/types.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/args.cmake.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\GTest\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/internal_deps.id.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\GTest\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/types.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\GTest\"/>
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/lib/cmake/Boost/BoostConfig.cmake">
 			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\Boost\"/>
@@ -468,42 +503,6 @@
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/lib/cmake/GTest/GTestTargets.cmake">
 			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\GTest\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/Boost/1.70.0-p0/e6bb97b/b074c24/4830b34/f54ee8e/basic-deps.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/Boost/1.70.0-p0/e6bb97b/b074c24/4830b34/f54ee8e/deps.info-TEMP.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/Boost/__filesystem/1.70.0-p0/e6bb97b/b074c24/4830b34/f54ee8e/basic-deps.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__filesystem\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/Boost/__filesystem/1.70.0-p0/e6bb97b/b074c24/4830b34/f54ee8e/deps.info-TEMP.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__filesystem\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/Boost/__log/1.70.0-p0/e6bb97b/b074c24/4830b34/f54ee8e/basic-deps.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__log\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/Boost/__log/1.70.0-p0/e6bb97b/b074c24/4830b34/f54ee8e/deps.info-TEMP.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__log\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/Boost/__system/1.70.0-p0/e6bb97b/b074c24/4830b34/f54ee8e/basic-deps.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__system\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/Boost/__system/1.70.0-p0/e6bb97b/b074c24/4830b34/f54ee8e/deps.info-TEMP.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__system\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/Boost/__thread/1.70.0-p0/e6bb97b/b074c24/4830b34/f54ee8e/basic-deps.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__thread\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/Boost/__thread/1.70.0-p0/e6bb97b/b074c24/4830b34/f54ee8e/deps.info-TEMP.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\Boost\__thread\1.70.0-p0\e6bb97b\b074c24\4830b34\f54ee8e\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/GTest/1.8.0-hunter-p11/76c6aec/0113760/4830b34/e5fa44f/basic-deps.info.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\GTest\1.8.0-hunter-p11\76c6aec\0113760\4830b34\e5fa44f\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Cache/meta/ab7ade2/GTest/1.8.0-hunter-p11/76c6aec/0113760/4830b34/e5fa44f/deps.info-TEMP.NOLF">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Cache\meta\ab7ade2\GTest\1.8.0-hunter-p11\76c6aec\0113760\4830b34\e5fa44f\"/>
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/cmake-build-debug/_3rdParty/Hunter/toolchain/toolchain.info.NOLF">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\"/>
