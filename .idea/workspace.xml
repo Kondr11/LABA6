@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="Threads" targetName="Threads" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -19,6 +21,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -59,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579781655043</updated>
       <workItem from="1579781658426" duration="10025000" />
-      <workItem from="1579793872264" duration="11719000" />
+      <workItem from="1579793872264" duration="12853000" />
     </task>
     <servers />
   </component>
