@@ -14,7 +14,7 @@
 
 using std::thread;
 using std::rand;
-using boost::log;
+
 
 void init()
 {
