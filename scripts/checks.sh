@@ -1,11 +1,11 @@
 #!/bin/bash
 set -e
 
-files=`find . -name "*.cpp" -or -name "*.hpp" -or -name ".h" | grep -v "./tools/*"`
+files=`find . -name "*.cpp" -or -name "*.hpp" -or -name ".h" | grep -v "./tools/*"` --ignore "*build*/**,tests,include/1/**"
 filter=-build/c++11,-runtime/references,-whitespace/braces,-whitespace/indent,-whitespace/comments,-build/include_order
 echo $files | xargs cpplint --filter=$filter
 
-jscpd --mode "weak" --format "cpp" --ignore "*build*/**,tests,include/1/**" .
+
 
 export CTEST_OUTPUT_ON_FAILURE=true
 # address sanitizer
