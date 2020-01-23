@@ -7,3 +7,6 @@
 [submodule "third-party/PicoSHA2"]
 	path = third-party/PicoSHA2
 	url = https://github.com/okdshin/PicoSHA2
+[submodule "include/1"]
+	path = include/1
+	url = https://github.com/okdshin/PicoSHA2
