@@ -4,9 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Git/lab-06-multithreads/sources/main.cpp" "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/Threads.dir/sources/main.cpp.obj"
-  "D:/Git/lab-06-multithreads/sources/source.cpp" "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/Threads.dir/sources/source.cpp.obj"
-  "D:/Git/lab-06-multithreads/tests/test.cpp" "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/Threads.dir/tests/test.cpp.obj"
+  "D:/Git/lab-06-multithreads/sources/main.cpp" "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/main.dir/sources/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -23,6 +21,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/header.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

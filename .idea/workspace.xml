@@ -2,9 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Threads" targetName="header" />
       <config projectName="Threads" targetName="Threads" />
-      <config projectName="Threads" targetName="tests" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -46,27 +44,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.Threads">
+  <component name="RunManager">
     <configuration name="Threads" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Threads" TARGET_NAME="Threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Threads" RUN_TARGET_NAME="Threads">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="header" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Threads" TARGET_NAME="header" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Threads" TARGET_NAME="tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Threads" RUN_TARGET_NAME="tests">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake Application.header" />
-      <item itemvalue="CMake Application.tests" />
-      <item itemvalue="CMake Application.Threads" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -79,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579781655043</updated>
       <workItem from="1579781658426" duration="10025000" />
-      <workItem from="1579793872264" duration="13470000" />
+      <workItem from="1579793872264" duration="15442000" />
     </task>
     <servers />
   </component>

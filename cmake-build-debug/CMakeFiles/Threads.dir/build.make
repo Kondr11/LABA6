@@ -77,25 +77,68 @@ CMakeFiles\Threads.dir\sources\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Threads.dir\sources\main.cpp.s /c D:\Git\lab-06-multithreads\sources\main.cpp
 <<
 
+CMakeFiles\Threads.dir\sources\source.cpp.obj: CMakeFiles\Threads.dir\flags.make
+CMakeFiles\Threads.dir\sources\source.cpp.obj: ..\sources\source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Git\lab-06-multithreads\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Threads.dir/sources/source.cpp.obj"
+	D:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Threads.dir\sources\source.cpp.obj /FdCMakeFiles\Threads.dir\ /FS -c D:\Git\lab-06-multithreads\sources\source.cpp
+<<
+
+CMakeFiles\Threads.dir\sources\source.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Threads.dir/sources/source.cpp.i"
+	D:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\Threads.dir\sources\source.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git\lab-06-multithreads\sources\source.cpp
+<<
+
+CMakeFiles\Threads.dir\sources\source.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Threads.dir/sources/source.cpp.s"
+	D:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Threads.dir\sources\source.cpp.s /c D:\Git\lab-06-multithreads\sources\source.cpp
+<<
+
+CMakeFiles\Threads.dir\tests\test.cpp.obj: CMakeFiles\Threads.dir\flags.make
+CMakeFiles\Threads.dir\tests\test.cpp.obj: ..\tests\test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Git\lab-06-multithreads\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Threads.dir/tests/test.cpp.obj"
+	D:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Threads.dir\tests\test.cpp.obj /FdCMakeFiles\Threads.dir\ /FS -c D:\Git\lab-06-multithreads\tests\test.cpp
+<<
+
+CMakeFiles\Threads.dir\tests\test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Threads.dir/tests/test.cpp.i"
+	D:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\Threads.dir\tests\test.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git\lab-06-multithreads\tests\test.cpp
+<<
+
+CMakeFiles\Threads.dir\tests\test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Threads.dir/tests/test.cpp.s"
+	D:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Threads.dir\tests\test.cpp.s /c D:\Git\lab-06-multithreads\tests\test.cpp
+<<
+
 # Object files for target Threads
 Threads_OBJECTS = \
-"CMakeFiles\Threads.dir\sources\main.cpp.obj"
+"CMakeFiles\Threads.dir\sources\main.cpp.obj" \
+"CMakeFiles\Threads.dir\sources\source.cpp.obj" \
+"CMakeFiles\Threads.dir\tests\test.cpp.obj"
 
 # External object files for target Threads
 Threads_EXTERNAL_OBJECTS =
 
 Threads.exe: CMakeFiles\Threads.dir\sources\main.cpp.obj
+Threads.exe: CMakeFiles\Threads.dir\sources\source.cpp.obj
+Threads.exe: CMakeFiles\Threads.dir\tests\test.cpp.obj
 Threads.exe: CMakeFiles\Threads.dir\build.make
-Threads.exe: headerd.lib
 Threads.exe: C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_log_setup-mt-gd-x32.lib
 Threads.exe: C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_log-mt-gd-x32.lib
 Threads.exe: C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_thread-mt-gd-x32.lib
 Threads.exe: C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_filesystem-mt-gd-x32.lib
 Threads.exe: C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_system-mt-gd-x32.lib
+Threads.exe: C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\gtest_maind.lib
+Threads.exe: C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\gtestd.lib
 Threads.exe: CMakeFiles\Threads.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Git\lab-06-multithreads\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Threads.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Git\lab-06-multithreads\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Threads.exe"
 	"D:\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Threads.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- D:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Threads.dir\objects1.rsp @<<
- /out:Threads.exe /implib:Threads.lib /pdb:D:\Git\lab-06-multithreads\cmake-build-debug\Threads.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console headerd.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_log_setup-mt-gd-x32.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_log-mt-gd-x32.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_thread-mt-gd-x32.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_filesystem-mt-gd-x32.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_system-mt-gd-x32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:Threads.exe /implib:Threads.lib /pdb:D:\Git\lab-06-multithreads\cmake-build-debug\Threads.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_log_setup-mt-gd-x32.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_log-mt-gd-x32.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_thread-mt-gd-x32.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_filesystem-mt-gd-x32.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\libboost_system-mt-gd-x32.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\gtest_maind.lib C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\gtestd.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.

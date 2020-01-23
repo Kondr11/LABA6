@@ -45,7 +45,7 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Build files have been written to: D:/Git/lab-06-multithreads/cmake-build-debug
 
 Cannot get compiler information:
-	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file15718163904332583459 D:\Temp\compiler-file8070019936356737814 | @response-file15718163904332583459=/TP -ID:\Git\lab-06-multithreads\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
+	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file8428071961955172112 D:\Temp\compiler-file11851598040289684974 | @response-file8428071961955172112=/TP -DBOOST_ALL_NO_LIB=1 -ID:\Git\lab-06-multithreads\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
 	ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.16.27034 ¤«п x86
 	(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
 	
@@ -56,43 +56,7 @@ Cannot get compiler information:
 		@set CL=
 		@set _CL_=
 		@set LINK=
-		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file8070019936356737814
-	/TP -ID:\Git\lab-06-multithreads\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP<<
-	
-	cl /TP -ID:\Git\lab-06-multithreads\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
-	cl: Є®¬ ­¤­ п бва®Є  error D8021: ­Ґ¤®ЇгбвЁ¬л© зЁб«®ў®©  аЈг¬Ґ­в "/Werror"
-	
-	
-	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file6316903607572953892 D:\Temp\compiler-file8070019936356737814 | @response-file6316903607572953892=/TP -ID:\Git\lab-06-multithreads\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
-	ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.16.27034 ¤«п x86
-	(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-	
-	all:
-		@cd D:\Git\lab-06-multithreads\cmake-build-debug
-		@set INCLUDE=D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include;D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt
-		@set LIB=D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x86;D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x86;
-		@set CL=
-		@set _CL_=
-		@set LINK=
-		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file8070019936356737814
-	/TP -ID:\Git\lab-06-multithreads\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP<<
-	
-	cl /TP -ID:\Git\lab-06-multithreads\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
-	cl: Є®¬ ­¤­ п бва®Є  error D8021: ­Ґ¤®ЇгбвЁ¬л© зЁб«®ў®©  аЈг¬Ґ­в "/Werror"
-	
-	
-	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file7455685597909519112 D:\Temp\compiler-file8070019936356737814 | @response-file7455685597909519112=/TP -DBOOST_ALL_NO_LIB=1 -ID:\Git\lab-06-multithreads\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
-	ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.16.27034 ¤«п x86
-	(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-	
-	all:
-		@cd D:\Git\lab-06-multithreads\cmake-build-debug
-		@set INCLUDE=D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include;D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt
-		@set LIB=D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x86;D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x86;
-		@set CL=
-		@set _CL_=
-		@set LINK=
-		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file8070019936356737814
+		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file11851598040289684974
 	/TP -DBOOST_ALL_NO_LIB=1 -ID:\Git\lab-06-multithreads\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP<<
 	
 	cl /TP -DBOOST_ALL_NO_LIB=1 -ID:\Git\lab-06-multithreads\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP

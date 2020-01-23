@@ -1,14 +1,5 @@
 // Copyright 2020 Kondr11
 
-#include <iostream>
-#include <string>
-#include <1/picosha2.h>
-#include <thread>
-#include <boost/lexical_cast.hpp>
-#include <boost/log/sinks.hpp>
-#include <boost/log/utility/setup.hpp>
-#include <csignal>
-
 #include "Enumeration.hpp"
 
 

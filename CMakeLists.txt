@@ -30,52 +30,38 @@ find_package(Threads)
 hunter_add_package(GTest)
 find_package(GTest CONFIG REQUIRED)
 
-add_library(header STATIC
-        ${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp
-        )
 
 add_executable(
         ${PROJECT_NAME}
-        sources/main.cpp)
-
-add_executable(tests
-        ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
-        )
+        sources/main.cpp
+        sources/source.cpp
+        tests/test.cpp)
 
 target_include_directories(
-        header
+        ${PROJECT_NAME}
         PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
-target_include_directories(tests
-        PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
-        )
-
 target_link_libraries(
         ${PROJECT_NAME}
-        header
         ${CMAKE_THREAD_LIBS_INIT}
         Boost::log_setup
         Boost::log
         Boost::thread
         Boost::filesystem
-        Boost::system)
-
-target_link_libraries(
-        tests
-        header
-        GTest::main)
+        Boost::system
+        GTest::main
+)
 
 enable_testing()
-add_test(NAME unit_tests COMMAND tests) 
+add_test(NAME unit_tests COMMAND  ${PROJECT_NAME})
 
 if(BUILD_COVERAGE)
   set(ENABLE_COVERAGE ON CACHE BOOL "Enable coverage build." FORCE)
   list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
   find_package(codecov)
   add_coverage(${PROJECT_NAME})
-  add_coverage(tests)
   list(APPEND LCOV_REMOVE_PATTERNS "'${PROJECT_SOURCE_DIR}/tests/*'")
   coverage_evaluate()
 endif()
