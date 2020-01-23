@@ -35,7 +35,7 @@ add_executable(
         ${PROJECT_NAME}
         sources/main.cpp
         sources/source.cpp
-        /tests/test.cpp)
+        tests/test.cpp)
 
 target_include_directories(
         ${PROJECT_NAME}
