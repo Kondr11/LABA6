@@ -9,9 +9,11 @@ void enumeration() {
         std::string hash = picosha2::hash256_hex_string(rand);
 
         if (hash.substr(hash.size() - str.size()) == str) {
-            BOOST_LOG_TRIVIAL(info) << "Found correct value '" << rand << "' with hash '" << hash << "'";
+            BOOST_LOG_TRIVIAL(info) << "Found correct value '" << rand
+            << "' with hash '" << hash << "'";
         } else {
-            BOOST_LOG_TRIVIAL(trace) << "Current value '" << rand << "' with hash '" << hash << "'";
+            BOOST_LOG_TRIVIAL(trace) << "Current value '" << rand
+            << "' with hash '" << hash << "'";
         }
     }
 }

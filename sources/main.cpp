@@ -1,4 +1,4 @@
-// Created by Kondr11.
+// Copyright 2020 Kondr11
 
 #include <iostream>
 #include <string>
@@ -22,24 +22,21 @@ void init()
             boost::log::trivial::severity_level,
             char
     >("Severity");
-    static const std::string format = "[%TimeStamp%][%Severity%][%ThreadID%]: %Message%";
+    static const std::string format =
+            "[%TimeStamp%][%Severity%][%ThreadID%]: %Message%";
 
     auto sinkFile = boost::log::add_file_log(
             boost::log::keywords::file_name = "logs/log_%N.log",
             boost::log::keywords::rotation_size = 128 * 1024 * 1024,
-            boost::log::keywords::format = format
-    );
+            boost::log::keywords::format = format);
     sinkFile->set_filter(
-            boost::log::trivial::severity >= boost::log::trivial::trace
-    );          // Log file setup
+            boost::log::trivial::severity >= boost::log::trivial::trace);
 
     auto sinkConsole = boost::log::add_console_log(
             std::cout,
-            boost::log::keywords::format = format
-    );
+            boost::log::keywords::format = format);
     sinkConsole->set_filter(
-            boost::log::trivial::severity >= boost::log::trivial::info
-    );      // Log console setup
+            boost::log::trivial::severity >= boost::log::trivial::info);
 
     boost::log::add_common_attributes();
 
