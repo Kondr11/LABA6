@@ -34,8 +34,7 @@ find_package(GTest CONFIG REQUIRED)
 add_executable(
         ${PROJECT_NAME}
         sources/main.cpp
-        sources/HashResolver.cpp
-        sources/main.cpp
+        sources/source.cpp
         /tests/test.cpp)
 
 target_include_directories(
