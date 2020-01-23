@@ -34,8 +34,11 @@ find_package(GTest CONFIG REQUIRED)
 add_executable(
         ${PROJECT_NAME}
         sources/main.cpp
-        sources/source.cpp
-        tests/test.cpp)
+        sources/source.cpp)
+
+add_executable(tests
+        ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
+        )
 
 target_include_directories(
         ${PROJECT_NAME}
@@ -43,8 +46,13 @@ target_include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
+target_include_directories(tests
+        PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
+        )
+
 target_link_libraries(
         ${PROJECT_NAME}
+        tests
         ${CMAKE_THREAD_LIBS_INIT}
         Boost::log_setup
         Boost::log
@@ -62,6 +70,7 @@ if(BUILD_COVERAGE)
   list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
   find_package(codecov)
   add_coverage(${PROJECT_NAME})
+  add_coverage(tests)
   list(APPEND LCOV_REMOVE_PATTERNS "'${PROJECT_SOURCE_DIR}/tests/*'")
   coverage_evaluate()
 endif()

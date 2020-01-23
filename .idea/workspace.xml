@@ -41,6 +41,13 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Threads" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Threads" TARGET_NAME="Threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Threads" RUN_TARGET_NAME="Threads">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -52,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579781655043</updated>
       <workItem from="1579781658426" duration="10025000" />
-      <workItem from="1579793872264" duration="10110000" />
+      <workItem from="1579793872264" duration="11719000" />
     </task>
     <servers />
   </component>

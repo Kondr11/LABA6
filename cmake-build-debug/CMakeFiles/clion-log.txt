@@ -1,21 +1,4 @@
 "D:\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\Git\lab-06-multithreads
--- [hunter] Initializing Hunter workspace (9a3594a61227967fb92159339ba326701b287b19)
--- [hunter]   https://github.com/cpp-pm/hunter/archive/v0.23.218.tar.gz
--- [hunter]   -> C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a
--- The C compiler identification is MSVC 19.16.27034.0
--- The CXX compiler identification is MSVC 19.16.27034.0
--- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
--- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
--- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- [hunter] Calculating Toolchain-SHA1
 -- [hunter] Calculating Config-SHA1
 -- [hunter] HUNTER_ROOT: C:/.hunter
@@ -40,13 +23,11 @@ loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/
 Scanning dependencies of target Boost
 [ 12%] Creating directories for 'Boost'
 [ 25%] Performing download step (download, verify and extract) for 'Boost'
--- Downloading...
-   dst='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
-   timeout='none'
--- Using src='https://github.com/hunter-packages/boost/archive/v1.70.0-p0.tar.gz'
 -- verifying file...
        file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
--- Downloading... done
+-- File already exists and hash match (skip download):
+  file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+  SHA1='e6bb97b5109c7c15ea459cf2b1a9d52cbf88a89e'
 -- extracting...
      src='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
      dst='C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/Source'
@@ -67,31 +48,1688 @@ C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\Source>call "D:/Microsoft V
 [vcvarsall.bat] Environment initialized for: 'x86'
 Building Boost.Build engine
 
-Failed to build Boost.Build engine.
-Please consult bootstrap.log for further diagnostics.
+Generating Boost.Build configuration in project-config.jam for msvc...
 
-NMAKE : fatal error U1077: call : С‚СЋС‡С‚РЃСЂв€™С…СЌСЌв€љС‰ СЉСЋС„ "0x1"
-Stop.
-NMAKE : fatal error U1077: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" : С‚СЋС‡С‚РЃСЂв€™С…СЌСЌв€љС‰ СЉСЋС„ "0x2"
-Stop.
-NMAKE : fatal error U1077: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" : С‚СЋС‡С‚РЃСЂв€™С…СЌСЌв€љС‰ СЉСЋС„ "0x2"
-Stop.
+Bootstrapping is done. To build, run:
 
-[hunter ** FATAL ERROR **] Build step failed (dir: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost
-[hunter ** FATAL ERROR **] [Directory:C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost]
+    .\b2
 
------------------------------- ERROR -----------------------------
-    https://docs.hunter.sh/en/latest/reference/errors/error.external.build.failed.html
-------------------------------------------------------------------
+To adjust configuration, edit 'project-config.jam'.
+Further information:
 
-CMake Error at C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_error_page.cmake:12 (message):
-Call Stack (most recent call first):
-  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_fatal_error.cmake:20 (hunter_error_page)
-  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_download.cmake:617 (hunter_fatal_error)
-  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/hunter.cmake:403 (hunter_download)
-  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
-  CMakeLists.txt:26 (hunter_add_package)
+    - Command line help:
+    .\b2 --help
+     
+    - Getting started guide: 
+    http://boost.org/more/getting_started/windows.html
+     
+    - Boost.Build documentation:
+    http://www.boost.org/build/
+
+[ 75%] No build step for 'Boost'
+[ 87%] Performing install step for 'Boost'
+Performing configuration checks
+
+    - default address-model    : 32-bit
+    - default architecture     : x86
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/args.cmake
+[100%] Completed 'Boost'
+[100%] Built target Boost
+-- [hunter] Build step successful (dir: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost)
+-- [hunter] Cache saved: C:/.hunter/_Base/Cache/raw/2c0e761e9ea3ebbcf7718c6a638a6ef5bc5cc607.tar.bz2
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install (ver.: 1.70.0-p0)
+-- [hunter] Building Boost (component: filesystem)
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__filesystem/args.cmake
+-- The C compiler identification is MSVC 19.16.27034.0
+-- The CXX compiler identification is MSVC 19.16.27034.0
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__filesystem/Build
+Scanning dependencies of target Boost-filesystem
+[ 12%] Creating directories for 'Boost-filesystem'
+[ 25%] Performing download step (download, verify and extract) for 'Boost-filesystem'
+-- verifying file...
+       file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+  SHA1='e6bb97b5109c7c15ea459cf2b1a9d52cbf88a89e'
+-- extracting...
+     src='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+     dst='C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__filesystem/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] Performing update step for 'Boost-filesystem'
+[ 50%] No patch step for 'Boost-filesystem'
+[ 62%] Performing configure step for 'Boost-filesystem'
+
+C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__filesystem\Source>call "D:/Microsoft Visual Studio/2017/Community/VC/Auxiliary/Build/vcvarsall.bat" x86 
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.16
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x86'
+Building Boost.Build engine
+
+Generating Boost.Build configuration in project-config.jam for msvc...
+
+Bootstrapping is done. To build, run:
+
+    .\b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+    - Command line help:
+    .\b2 --help
+     
+    - Getting started guide: 
+    http://boost.org/more/getting_started/windows.html
+     
+    - Boost.Build documentation:
+    http://www.boost.org/build/
+
+[ 75%] Performing build step for 'Boost-filesystem'
+Performing configuration checks
+
+    - default address-model    : 32-bit
+    - default architecture     : x86
+
+Building the Boost C++ Libraries.
 
 
--- Configuring incomplete, errors occurred!
-See also "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...found 560 targets...
+...updating 32 targets...
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\codecvt_error_category.obj
+codecvt_error_category.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\operations.obj
+operations.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\path.obj
+path.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\path_traits.obj
+path_traits.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\portability.obj
+portability.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\unique_path.obj
+unique_path.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\utf8_codecvt_facet.obj
+utf8_codecvt_facet.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\windows_file_codecvt.obj
+windows_file_codecvt.cpp
+msvc.archive bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\libboost_filesystem-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__filesystem\Source\stage\lib\libboost_filesystem-mt-gd-x32.lib
+bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\libboost_filesystem-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\codecvt_error_category.obj
+codecvt_error_category.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\operations.obj
+operations.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\path.obj
+path.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\path_traits.obj
+path_traits.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\portability.obj
+portability.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\unique_path.obj
+unique_path.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\utf8_codecvt_facet.obj
+utf8_codecvt_facet.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\windows_file_codecvt.obj
+windows_file_codecvt.cpp
+msvc.archive bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\libboost_filesystem-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__filesystem\Source\stage\lib\libboost_filesystem-mt-x32.lib
+bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\libboost_filesystem-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+...updated 32 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__filesystem\Source
+
+The following directory should be added to linker library paths:
+
+    C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__filesystem\Source\stage\lib
+
+[ 87%] Performing install step for 'Boost-filesystem'
+Performing configuration checks
+
+    - default address-model    : 32-bit
+    - default architecture     : x86
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[100%] Completed 'Boost-filesystem'
+[100%] Built target Boost-filesystem
+-- [hunter] Build step successful (dir: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__filesystem)
+-- [hunter] Cache saved: C:/.hunter/_Base/Cache/raw/84d6d9b9182936d4361444daecc2a80f4900e6ba.tar.bz2
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install (ver.: 1.70.0-p0)
+-- [hunter] Building Boost (component: log)
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__log/args.cmake
+-- The C compiler identification is MSVC 19.16.27034.0
+-- The CXX compiler identification is MSVC 19.16.27034.0
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__log/Build
+Scanning dependencies of target Boost-log
+[ 12%] Creating directories for 'Boost-log'
+[ 25%] Performing download step (download, verify and extract) for 'Boost-log'
+-- verifying file...
+       file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+  SHA1='e6bb97b5109c7c15ea459cf2b1a9d52cbf88a89e'
+-- extracting...
+     src='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+     dst='C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__log/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] Performing update step for 'Boost-log'
+[ 50%] No patch step for 'Boost-log'
+[ 62%] Performing configure step for 'Boost-log'
+
+C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source>call "D:/Microsoft Visual Studio/2017/Community/VC/Auxiliary/Build/vcvarsall.bat" x86 
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.16
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x86'
+Building Boost.Build engine
+
+Generating Boost.Build configuration in project-config.jam for msvc...
+
+Bootstrapping is done. To build, run:
+
+    .\b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+    - Command line help:
+    .\b2 --help
+     
+    - Getting started guide: 
+    http://boost.org/more/getting_started/windows.html
+     
+    - Boost.Build documentation:
+    http://www.boost.org/build/
+
+[ 75%] Performing build step for 'Boost-log'
+Performing configuration checks
+
+    - default address-model    : 32-bit
+    - default architecture     : x86
+
+Building the Boost C++ Libraries.
+
+
+    - native-atomic-int32-supported : yes
+    - message-compiler         : yes
+    - native-syslog-supported  : no
+    - pthread-supports-robust-mutexes : no
+    - has_icu builds           : no
+    - compiler-supports-ssse3  : yes
+    - compiler-supports-avx2   : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...patience...
+...patience...
+...found 11079 targets...
+...updating 284 targets...
+compile-c-c++ bin.v2\libs\atomic\build\msvc-14.1\debug\link-static\threading-multi\lockpool.obj
+lockpool.cpp
+msvc.archive bin.v2\libs\atomic\build\msvc-14.1\debug\link-static\threading-multi\libboost_atomic-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_atomic-mt-gd-x32.lib
+bin.v2\libs\atomic\build\msvc-14.1\debug\link-static\threading-multi\libboost_atomic-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\date_time\build\msvc-14.1\debug\link-static\threading-multi\gregorian\greg_month.obj
+greg_month.cpp
+compile-c-c++ bin.v2\libs\date_time\build\msvc-14.1\debug\link-static\threading-multi\gregorian\greg_weekday.obj
+greg_weekday.cpp
+compile-c-c++ bin.v2\libs\date_time\build\msvc-14.1\debug\link-static\threading-multi\gregorian\date_generators.obj
+date_generators.cpp
+msvc.archive bin.v2\libs\date_time\build\msvc-14.1\debug\link-static\threading-multi\libboost_date_time-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_date_time-mt-gd-x32.lib
+bin.v2\libs\date_time\build\msvc-14.1\debug\link-static\threading-multi\libboost_date_time-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\codecvt_error_category.obj
+codecvt_error_category.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\operations.obj
+operations.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\path.obj
+path.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\path_traits.obj
+path_traits.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\portability.obj
+portability.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\unique_path.obj
+unique_path.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\utf8_codecvt_facet.obj
+utf8_codecvt_facet.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\windows_file_codecvt.obj
+windows_file_codecvt.cpp
+msvc.archive bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\libboost_filesystem-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_filesystem-mt-gd-x32.lib
+bin.v2\libs\filesystem\build\msvc-14.1\debug\link-static\threading-multi\libboost_filesystem-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\c_regex_traits.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+c_regex_traits.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\cpp_regex_traits.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+cpp_regex_traits.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\cregex.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+cregex.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\fileiter.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+fileiter.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\icu.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+icu.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\instances.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+instances.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\posix_api.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+posix_api.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\regex.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+regex.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\regex_debug.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+regex_debug.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\regex_raw_buffer.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+regex_raw_buffer.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\regex_traits_defaults.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+regex_traits_defaults.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\static_mutex.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+static_mutex.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\w32_regex_traits.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+w32_regex_traits.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\wc_regex_traits.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+wc_regex_traits.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\wide_posix_api.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+wide_posix_api.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\winstances.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+winstances.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\usinstances.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+usinstances.cpp
+msvc.archive bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\libboost_regex-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_regex-mt-gd-x32.lib
+bin.v2\libs\regex\build\msvc-14.1\debug\link-static\threading-multi\libboost_regex-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\debug\link-static\threading-multi\chrono.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+chrono.cpp
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\debug\link-static\threading-multi\thread_clock.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread_clock.cpp
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\debug\link-static\threading-multi\process_cpu_clocks.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+process_cpu_clocks.cpp
+msvc.archive bin.v2\libs\chrono\build\msvc-14.1\debug\link-static\threading-multi\libboost_chrono-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_chrono-mt-gd-x32.lib
+bin.v2\libs\chrono\build\msvc-14.1\debug\link-static\threading-multi\libboost_chrono-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\win32\thread.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\win32\tss_dll.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+tss_dll.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\win32\tss_pe.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+tss_pe.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\win32\thread_primitives.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread_primitives.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\future.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+future.cpp
+msvc.archive bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\libboost_thread-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_thread-mt-gd-x32.lib
+bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\libboost_thread-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\attribute_name.obj
+attribute_name.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\attribute_set.obj
+attribute_set.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\attribute_value_set.obj
+attribute_value_set.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\code_conversion.obj
+code_conversion.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\core.obj
+core.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\record_ostream.obj
+record_ostream.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\severity_level.obj
+severity_level.cpp
+...on 100th target...
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\global_logger_storage.obj
+global_logger_storage.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\named_scope.obj
+named_scope.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\process_name.obj
+process_name.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\process_id.obj
+process_id.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\thread_id.obj
+thread_id.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\timer.obj
+timer.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\exceptions.obj
+exceptions.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\default_attribute_names.obj
+default_attribute_names.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\default_sink.obj
+default_sink.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\text_ostream_backend.obj
+text_ostream_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\text_file_backend.obj
+text_file_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\text_multifile_backend.obj
+text_multifile_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\thread_specific.obj
+thread_specific.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\once_block.obj
+once_block.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\timestamp.obj
+timestamp.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\threadsafe_queue.obj
+threadsafe_queue.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\event.obj
+event.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\trivial.obj
+trivial.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\spirit_encoding.obj
+spirit_encoding.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\format_parser.obj
+format_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\date_time_format_parser.obj
+date_time_format_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\named_scope_format_parser.obj
+named_scope_format_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\permissions.obj
+permissions.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\dump.obj
+dump.cpp
+msvc.compile.mc bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\windows\simple_event_log.h
+MC: Compiling libs\log\src\windows\simple_event_log.mc
+msvc.compile.rc bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\windows\simple_event_log_res.obj
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\dump_avx2.obj
+dump_avx2.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\dump_ssse3.obj
+dump_ssse3.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\syslog_backend.obj
+syslog_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\windows\debug_output_backend.obj
+debug_output_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\windows\event_log_backend.obj
+event_log_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\windows\ipc_reliable_message_queue.obj
+ipc_reliable_message_queue.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\windows\ipc_sync_wrappers.obj
+ipc_sync_wrappers.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\windows\light_rw_mutex.obj
+light_rw_mutex.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\windows\mapped_shared_memory.obj
+mapped_shared_memory.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\windows\object_name.obj
+object_name.cpp
+msvc.archive bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\libboost_log-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_log-mt-gd-x32.lib
+bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\libboost_log-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\setup\parser_utils.obj
+parser_utils.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\setup\init_from_stream.obj
+init_from_stream.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\setup\init_from_settings.obj
+init_from_settings.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\setup\settings_parser.obj
+settings_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\setup\filter_parser.obj
+filter_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\setup\formatter_parser.obj
+formatter_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\setup\default_filter_factory.obj
+default_filter_factory.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\setup\matches_relation_factory.obj
+matches_relation_factory.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\setup\default_formatter_factory.obj
+default_formatter_factory.cpp
+msvc.archive bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\libboost_log_setup-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_log_setup-mt-gd-x32.lib
+bin.v2\libs\log\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\libboost_log_setup-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\atomic\build\msvc-14.1\release\link-static\threading-multi\lockpool.obj
+lockpool.cpp
+msvc.archive bin.v2\libs\atomic\build\msvc-14.1\release\link-static\threading-multi\libboost_atomic-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_atomic-mt-x32.lib
+bin.v2\libs\atomic\build\msvc-14.1\release\link-static\threading-multi\libboost_atomic-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\date_time\build\msvc-14.1\release\link-static\threading-multi\gregorian\greg_month.obj
+greg_month.cpp
+compile-c-c++ bin.v2\libs\date_time\build\msvc-14.1\release\link-static\threading-multi\gregorian\greg_weekday.obj
+greg_weekday.cpp
+compile-c-c++ bin.v2\libs\date_time\build\msvc-14.1\release\link-static\threading-multi\gregorian\date_generators.obj
+date_generators.cpp
+msvc.archive bin.v2\libs\date_time\build\msvc-14.1\release\link-static\threading-multi\libboost_date_time-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_date_time-mt-x32.lib
+bin.v2\libs\date_time\build\msvc-14.1\release\link-static\threading-multi\libboost_date_time-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\codecvt_error_category.obj
+codecvt_error_category.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\operations.obj
+operations.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\path.obj
+path.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\path_traits.obj
+path_traits.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\portability.obj
+portability.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\unique_path.obj
+unique_path.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\utf8_codecvt_facet.obj
+utf8_codecvt_facet.cpp
+compile-c-c++ bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\windows_file_codecvt.obj
+windows_file_codecvt.cpp
+msvc.archive bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\libboost_filesystem-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_filesystem-mt-x32.lib
+bin.v2\libs\filesystem\build\msvc-14.1\release\link-static\threading-multi\libboost_filesystem-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\c_regex_traits.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+c_regex_traits.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\cpp_regex_traits.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+cpp_regex_traits.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\cregex.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+cregex.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\fileiter.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+fileiter.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\icu.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+icu.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\instances.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+instances.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\posix_api.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+posix_api.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\regex.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+regex.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\regex_debug.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+regex_debug.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\regex_raw_buffer.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+regex_raw_buffer.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\regex_traits_defaults.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+regex_traits_defaults.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\static_mutex.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+static_mutex.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\w32_regex_traits.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+w32_regex_traits.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\wc_regex_traits.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+wc_regex_traits.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\wide_posix_api.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+wide_posix_api.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\winstances.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+winstances.cpp
+compile-c-c++ bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\usinstances.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+usinstances.cpp
+...on 200th target...
+msvc.archive bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\libboost_regex-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_regex-mt-x32.lib
+bin.v2\libs\regex\build\msvc-14.1\release\link-static\threading-multi\libboost_regex-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\release\link-static\threading-multi\chrono.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+chrono.cpp
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\release\link-static\threading-multi\thread_clock.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread_clock.cpp
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\release\link-static\threading-multi\process_cpu_clocks.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+process_cpu_clocks.cpp
+msvc.archive bin.v2\libs\chrono\build\msvc-14.1\release\link-static\threading-multi\libboost_chrono-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_chrono-mt-x32.lib
+bin.v2\libs\chrono\build\msvc-14.1\release\link-static\threading-multi\libboost_chrono-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\win32\thread.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\win32\tss_dll.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+tss_dll.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\win32\tss_pe.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+tss_pe.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\win32\thread_primitives.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread_primitives.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\future.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+future.cpp
+msvc.archive bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\libboost_thread-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_thread-mt-x32.lib
+bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\libboost_thread-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\attribute_name.obj
+attribute_name.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\attribute_set.obj
+attribute_set.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\attribute_value_set.obj
+attribute_value_set.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\code_conversion.obj
+code_conversion.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\core.obj
+core.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\record_ostream.obj
+record_ostream.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\severity_level.obj
+severity_level.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\global_logger_storage.obj
+global_logger_storage.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\named_scope.obj
+named_scope.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\process_name.obj
+process_name.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\process_id.obj
+process_id.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\thread_id.obj
+thread_id.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\timer.obj
+timer.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\exceptions.obj
+exceptions.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\default_attribute_names.obj
+default_attribute_names.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\default_sink.obj
+default_sink.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\text_ostream_backend.obj
+text_ostream_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\text_file_backend.obj
+text_file_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\text_multifile_backend.obj
+text_multifile_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\thread_specific.obj
+thread_specific.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\once_block.obj
+once_block.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\timestamp.obj
+timestamp.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\threadsafe_queue.obj
+threadsafe_queue.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\event.obj
+event.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\trivial.obj
+trivial.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\spirit_encoding.obj
+spirit_encoding.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\format_parser.obj
+format_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\date_time_format_parser.obj
+date_time_format_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\named_scope_format_parser.obj
+named_scope_format_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\permissions.obj
+permissions.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\dump.obj
+dump.cpp
+msvc.compile.mc bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\windows\simple_event_log.h
+MC: Compiling libs\log\src\windows\simple_event_log.mc
+msvc.compile.rc bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\windows\simple_event_log_res.obj
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\syslog_backend.obj
+syslog_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\windows\debug_output_backend.obj
+debug_output_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\windows\event_log_backend.obj
+event_log_backend.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\windows\ipc_reliable_message_queue.obj
+ipc_reliable_message_queue.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\windows\ipc_sync_wrappers.obj
+ipc_sync_wrappers.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\windows\light_rw_mutex.obj
+light_rw_mutex.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\windows\mapped_shared_memory.obj
+mapped_shared_memory.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\windows\object_name.obj
+object_name.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\dump_avx2.obj
+dump_avx2.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\dump_ssse3.obj
+dump_ssse3.cpp
+msvc.archive bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\libboost_log-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_log-mt-x32.lib
+bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\libboost_log-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\setup\parser_utils.obj
+parser_utils.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\setup\init_from_stream.obj
+init_from_stream.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\setup\init_from_settings.obj
+init_from_settings.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\setup\settings_parser.obj
+settings_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\setup\filter_parser.obj
+filter_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\setup\formatter_parser.obj
+formatter_parser.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\setup\default_filter_factory.obj
+default_filter_factory.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\setup\matches_relation_factory.obj
+matches_relation_factory.cpp
+compile-c-c++ bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\setup\default_formatter_factory.obj
+default_formatter_factory.cpp
+msvc.archive bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\libboost_log_setup-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib\libboost_log_setup-mt-x32.lib
+bin.v2\libs\log\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\libboost_log_setup-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+...updated 284 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source
+
+The following directory should be added to linker library paths:
+
+    C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__log\Source\stage\lib
+
+[ 87%] Performing install step for 'Boost-log'
+Performing configuration checks
+
+    - default address-model    : 32-bit
+    - default architecture     : x86
+    - native-atomic-int32-supported : yes
+    - message-compiler         : yes
+    - native-syslog-supported  : no
+    - pthread-supports-robust-mutexes : no
+    - has_icu builds           : no
+    - compiler-supports-ssse3  : yes
+    - compiler-supports-avx2   : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[100%] Completed 'Boost-log'
+[100%] Built target Boost-log
+-- [hunter] Build step successful (dir: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__log)
+-- [hunter] Cache saved: C:/.hunter/_Base/Cache/raw/692f9654957dea76858bdc11d5e3951b79b4d824.tar.bz2
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install (ver.: 1.70.0-p0)
+-- [hunter] Building Boost (component: system)
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__system/args.cmake
+-- The C compiler identification is MSVC 19.16.27034.0
+-- The CXX compiler identification is MSVC 19.16.27034.0
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__system/Build
+Scanning dependencies of target Boost-system
+[ 12%] Creating directories for 'Boost-system'
+[ 25%] Performing download step (download, verify and extract) for 'Boost-system'
+-- verifying file...
+       file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+  SHA1='e6bb97b5109c7c15ea459cf2b1a9d52cbf88a89e'
+-- extracting...
+     src='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+     dst='C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__system/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] Performing update step for 'Boost-system'
+[ 50%] No patch step for 'Boost-system'
+[ 62%] Performing configure step for 'Boost-system'
+
+C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__system\Source>call "D:/Microsoft Visual Studio/2017/Community/VC/Auxiliary/Build/vcvarsall.bat" x86 
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.16
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x86'
+Building Boost.Build engine
+
+Generating Boost.Build configuration in project-config.jam for msvc...
+
+Bootstrapping is done. To build, run:
+
+    .\b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+    - Command line help:
+    .\b2 --help
+     
+    - Getting started guide: 
+    http://boost.org/more/getting_started/windows.html
+     
+    - Boost.Build documentation:
+    http://www.boost.org/build/
+
+[ 75%] Performing build step for 'Boost-system'
+Performing configuration checks
+
+    - default address-model    : 32-bit
+    - default architecture     : x86
+
+Building the Boost C++ Libraries.
+
+
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...found 130 targets...
+...updating 18 targets...
+compile-c-c++ bin.v2\libs\system\build\msvc-14.1\debug\link-static\threading-multi\error_code.obj
+error_code.cpp
+msvc.archive bin.v2\libs\system\build\msvc-14.1\debug\link-static\threading-multi\libboost_system-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__system\Source\stage\lib\libboost_system-mt-gd-x32.lib
+bin.v2\libs\system\build\msvc-14.1\debug\link-static\threading-multi\libboost_system-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\system\build\msvc-14.1\release\link-static\threading-multi\error_code.obj
+error_code.cpp
+msvc.archive bin.v2\libs\system\build\msvc-14.1\release\link-static\threading-multi\libboost_system-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__system\Source\stage\lib\libboost_system-mt-x32.lib
+bin.v2\libs\system\build\msvc-14.1\release\link-static\threading-multi\libboost_system-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+...updated 18 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__system\Source
+
+The following directory should be added to linker library paths:
+
+    C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__system\Source\stage\lib
+
+[ 87%] Performing install step for 'Boost-system'
+Performing configuration checks
+
+    - default address-model    : 32-bit
+    - default architecture     : x86
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[100%] Completed 'Boost-system'
+[100%] Built target Boost-system
+-- [hunter] Build step successful (dir: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__system)
+-- [hunter] Cache saved: C:/.hunter/_Base/Cache/raw/de9e9eae532b82e55b8c82d5f263685e83f84c7f.tar.bz2
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install (ver.: 1.70.0-p0)
+-- [hunter] Building Boost (component: thread)
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__thread/args.cmake
+-- The C compiler identification is MSVC 19.16.27034.0
+-- The CXX compiler identification is MSVC 19.16.27034.0
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__thread/Build
+Scanning dependencies of target Boost-thread
+[ 12%] Creating directories for 'Boost-thread'
+[ 25%] Performing download step (download, verify and extract) for 'Boost-thread'
+-- verifying file...
+       file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+  SHA1='e6bb97b5109c7c15ea459cf2b1a9d52cbf88a89e'
+-- extracting...
+     src='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+     dst='C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__thread/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] Performing update step for 'Boost-thread'
+[ 50%] No patch step for 'Boost-thread'
+[ 62%] Performing configure step for 'Boost-thread'
+
+C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\Source>call "D:/Microsoft Visual Studio/2017/Community/VC/Auxiliary/Build/vcvarsall.bat" x86 
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.16
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x86'
+Building Boost.Build engine
+
+Generating Boost.Build configuration in project-config.jam for msvc...
+
+Bootstrapping is done. To build, run:
+
+    .\b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+    - Command line help:
+    .\b2 --help
+     
+    - Getting started guide: 
+    http://boost.org/more/getting_started/windows.html
+     
+    - Boost.Build documentation:
+    http://www.boost.org/build/
+
+[ 75%] Performing build step for 'Boost-thread'
+Performing configuration checks
+
+    - default address-model    : 32-bit
+    - default architecture     : x86
+
+Building the Boost C++ Libraries.
+
+
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...patience...
+...found 1331 targets...
+...updating 49 targets...
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\debug\link-static\threading-multi\chrono.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+chrono.cpp
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\debug\link-static\threading-multi\thread_clock.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread_clock.cpp
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\debug\link-static\threading-multi\process_cpu_clocks.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+process_cpu_clocks.cpp
+msvc.archive bin.v2\libs\chrono\build\msvc-14.1\debug\link-static\threading-multi\libboost_chrono-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\Source\stage\lib\libboost_chrono-mt-gd-x32.lib
+bin.v2\libs\chrono\build\msvc-14.1\debug\link-static\threading-multi\libboost_chrono-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\win32\thread.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\win32\tss_dll.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+tss_dll.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\win32\tss_pe.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+tss_pe.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\win32\thread_primitives.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread_primitives.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\future.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+future.cpp
+msvc.archive bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\libboost_thread-mt-gd-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\Source\stage\lib\libboost_thread-mt-gd-x32.lib
+bin.v2\libs\thread\build\msvc-14.1\debug\link-static\threadapi-win32\threading-multi\libboost_thread-mt-gd-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\release\link-static\threading-multi\chrono.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+chrono.cpp
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\release\link-static\threading-multi\thread_clock.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread_clock.cpp
+compile-c-c++ bin.v2\libs\chrono\build\msvc-14.1\release\link-static\threading-multi\process_cpu_clocks.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+process_cpu_clocks.cpp
+msvc.archive bin.v2\libs\chrono\build\msvc-14.1\release\link-static\threading-multi\libboost_chrono-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\Source\stage\lib\libboost_chrono-mt-x32.lib
+bin.v2\libs\chrono\build\msvc-14.1\release\link-static\threading-multi\libboost_chrono-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\win32\thread.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\win32\tss_dll.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+tss_dll.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\win32\tss_pe.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+tss_pe.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\win32\thread_primitives.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+thread_primitives.cpp
+compile-c-c++ bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\future.obj
+cl: РєРѕРјР°РЅРґРЅР°СЏ СЃС‚СЂРѕРєР° warning D9025: РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ "/W4" РЅР° "/W3"
+future.cpp
+msvc.archive bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\libboost_thread-mt-x32.lib
+common.copy C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\Source\stage\lib\libboost_thread-mt-x32.lib
+bin.v2\libs\thread\build\msvc-14.1\release\link-static\threadapi-win32\threading-multi\libboost_thread-mt-x32.lib
+РЎРєРѕРїРёСЂРѕРІР°РЅРѕ С„Р°Р№Р»РѕРІ:         1.
+...updated 49 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\Source
+
+The following directory should be added to linker library paths:
+
+    C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\__thread\Source\stage\lib
+
+[ 87%] Performing install step for 'Boost-thread'
+Performing configuration checks
+
+    - default address-model    : 32-bit
+    - default architecture     : x86
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[100%] Completed 'Boost-thread'
+[100%] Built target Boost-thread
+-- [hunter] Build step successful (dir: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/__thread)
+-- [hunter] Cache saved: C:/.hunter/_Base/Cache/raw/37597266fc1f7200ca7e68adf39ab16dcf5445b7.tar.bz2
+CMake Warning (dev) at CMakeLists.txt:27 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Environment variable Boost_ROOT is set to:
+
+    C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Boost version: 1.70.0
+-- Found the following Boost libraries:
+--   filesystem
+--   log
+--   log_setup
+--   system
+--   thread
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE  
+-- Looking for clock_gettime
+-- Looking for clock_gettime - not found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - not found
+-- [hunter] GTEST_ROOT: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install (ver.: 1.8.0-hunter-p11)
+-- [hunter] Building GTest
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/args.cmake
+-- The C compiler identification is MSVC 19.16.27034.0
+-- The CXX compiler identification is MSVC 19.16.27034.0
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Build
+Scanning dependencies of target GTest-Release
+[  6%] Creating directories for 'GTest-Release'
+[ 12%] Performing download step (download, verify and extract) for 'GTest-Release'
+-- Downloading...
+   dst='C:/.hunter/_Base/Download/GTest/1.8.0-hunter-p11/76c6aec/1.8.0-hunter-p11.tar.gz'
+   timeout='none'
+-- Using src='https://github.com/hunter-packages/googletest/archive/1.8.0-hunter-p11.tar.gz'
+-- verifying file...
+       file='C:/.hunter/_Base/Download/GTest/1.8.0-hunter-p11/76c6aec/1.8.0-hunter-p11.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='C:/.hunter/_Base/Download/GTest/1.8.0-hunter-p11/76c6aec/1.8.0-hunter-p11.tar.gz'
+     dst='C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No update step for 'GTest-Release'
+[ 25%] No patch step for 'GTest-Release'
+[ 31%] Performing configure step for 'GTest-Release'
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/args.cmake
+-- The C compiler identification is MSVC 19.16.27034.0
+-- The CXX compiler identification is MSVC 19.16.27034.0
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find PythonInterp (missing: PYTHON_EXECUTABLE) 
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Build/GTest-Release-prefix/src/GTest-Release-build
+[ 37%] Performing build step for 'GTest-Release'
+Scanning dependencies of target gmock_main
+[  9%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj
+gtest-all.cc
+[ 18%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj
+gmock-all.cc
+[ 27%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
+gmock_main.cc
+[ 36%] Linking CXX static library gmock_main.lib
+[ 36%] Built target gmock_main
+Scanning dependencies of target gmock
+[ 45%] Building CXX object googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj
+gtest-all.cc
+[ 54%] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj
+gmock-all.cc
+[ 63%] Linking CXX static library gmock.lib
+[ 63%] Built target gmock
+Scanning dependencies of target gtest
+[ 72%] Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
+gtest-all.cc
+[ 81%] Linking CXX static library gtest.lib
+[ 81%] Built target gtest
+Scanning dependencies of target gtest_main
+[ 90%] Building CXX object googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
+gtest_main.cc
+[100%] Linking CXX static library gtest_main.lib
+[100%] Built target gtest_main
+[ 43%] Performing install step for 'GTest-Release'
+[ 36%] Built target gmock_main
+[ 63%] Built target gmock
+[ 81%] Built target gtest
+[100%] Built target gtest_main
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gmock.lib
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gmock_main.lib
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-actions.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-cardinalities.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-generated-actions.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-generated-function-mockers.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-generated-matchers.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-generated-nice-strict.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-matchers.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-more-actions.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-more-matchers.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-spec-builders.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/custom
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/custom/gmock-generated-actions.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/custom/gmock-matchers.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/custom/gmock-port.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/gmock-generated-internal-utils.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/gmock-internal-utils.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/gmock-port.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GMock/GMockConfig.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GMock/GMockConfigVersion.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GMock/GMockTargets.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GMock/GMockTargets-release.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gtest.lib
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gtest_main.lib
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-death-test.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-message.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-param-test.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-printers.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-spi.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-test-part.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-typed-test.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest_pred_impl.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest_prod.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/custom
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/custom/gtest-port.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/custom/gtest-printers.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/custom/gtest.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-death-test-internal.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-filepath.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-internal.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-linked_ptr.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-param-util-generated.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-param-util.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-port-arch.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-port.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-string.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-tuple.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-type-util.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GTest/GTestConfig.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GTest/GTestConfigVersion.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GTest/GTestTargets.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GTest/GTestTargets-release.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/args.cmake
+[ 50%] Completed 'GTest-Release'
+[ 50%] Built target GTest-Release
+Scanning dependencies of target GTest-Debug
+[ 56%] Creating directories for 'GTest-Debug'
+[ 62%] Performing download step (download, verify and extract) for 'GTest-Debug'
+-- verifying file...
+       file='C:/.hunter/_Base/Download/GTest/1.8.0-hunter-p11/76c6aec/1.8.0-hunter-p11.tar.gz'
+-- File already exists and hash match (skip download):
+  file='C:/.hunter/_Base/Download/GTest/1.8.0-hunter-p11/76c6aec/1.8.0-hunter-p11.tar.gz'
+  SHA1='76c6aec038f7d7258bf5c4f45c4817b34039d285'
+-- extracting...
+     src='C:/.hunter/_Base/Download/GTest/1.8.0-hunter-p11/76c6aec/1.8.0-hunter-p11.tar.gz'
+     dst='C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 68%] No update step for 'GTest-Debug'
+[ 75%] No patch step for 'GTest-Debug'
+[ 81%] Performing configure step for 'GTest-Debug'
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/args.cmake
+-- The C compiler identification is MSVC 19.16.27034.0
+-- The CXX compiler identification is MSVC 19.16.27034.0
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find PythonInterp (missing: PYTHON_EXECUTABLE) 
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Build/GTest-Debug-prefix/src/GTest-Debug-build
+[ 87%] Performing build step for 'GTest-Debug'
+Scanning dependencies of target gmock_main
+[  9%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj
+gtest-all.cc
+[ 18%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj
+gmock-all.cc
+[ 27%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
+gmock_main.cc
+[ 36%] Linking CXX static library gmock_maind.lib
+[ 36%] Built target gmock_main
+Scanning dependencies of target gmock
+[ 45%] Building CXX object googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj
+gtest-all.cc
+[ 54%] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj
+gmock-all.cc
+[ 63%] Linking CXX static library gmockd.lib
+[ 63%] Built target gmock
+Scanning dependencies of target gtest
+[ 72%] Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
+gtest-all.cc
+[ 81%] Linking CXX static library gtestd.lib
+[ 81%] Built target gtest
+Scanning dependencies of target gtest_main
+[ 90%] Building CXX object googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
+gtest_main.cc
+[100%] Linking CXX static library gtest_maind.lib
+[100%] Built target gtest_main
+[ 93%] Performing install step for 'GTest-Debug'
+[ 36%] Built target gmock_main
+[ 63%] Built target gmock
+[ 81%] Built target gtest
+[100%] Built target gtest_main
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gmockd.lib
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gmock_maind.lib
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-actions.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-cardinalities.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-generated-actions.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-generated-function-mockers.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-generated-matchers.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-generated-nice-strict.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-matchers.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-more-actions.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-more-matchers.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock-spec-builders.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/gmock.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/custom
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/custom/gmock-generated-actions.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/custom/gmock-matchers.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/custom/gmock-port.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/gmock-generated-internal-utils.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/gmock-internal-utils.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gmock/internal/gmock-port.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GMock/GMockConfig.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GMock/GMockConfigVersion.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GMock/GMockTargets.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GMock/GMockTargets-debug.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gmockd-compiler.pdb
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gmock_maind-compiler.pdb
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gtestd.lib
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gtest_maind.lib
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-death-test.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-message.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-param-test.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-printers.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-spi.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-test-part.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest-typed-test.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest_pred_impl.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/gtest_prod.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/custom
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/custom/gtest-port.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/custom/gtest-printers.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/custom/gtest.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-death-test-internal.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-filepath.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-internal.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-linked_ptr.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-param-util-generated.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-param-util.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-port-arch.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-port.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-string.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-tuple.h
+-- Up-to-date: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/include/gtest/internal/gtest-type-util.h
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GTest/GTestConfig.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GTest/GTestConfigVersion.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GTest/GTestTargets.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/cmake/GTest/GTestTargets-debug.cmake
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gtestd-compiler.pdb
+-- Installing: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/Install/lib/gtest_maind-compiler.pdb
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest/args.cmake
+[100%] Completed 'GTest-Debug'
+[100%] Built target GTest-Debug
+-- [hunter] Build step successful (dir: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/GTest)
+-- [hunter] Cache saved: C:/.hunter/_Base/Cache/raw/fc5914dcb8e8d549e7d07850d6640596acda7187.tar.bz2
+CMake Warning (dev) at CMakeLists.txt:31 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Environment variable GTest_ROOT is set to:
+
+    C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Git/lab-06-multithreads/cmake-build-debug
+
+Cannot get compiler information:
+	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file3942791076221928507 D:\Temp\compiler-file12681755643993133712 | @response-file3942791076221928507=/TP -DBOOST_ALL_NO_LIB=1 -ID:\Git\lab-06-multithreads\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
+	ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.16.27034 ¤«п x86
+	(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+	
+	all:
+		@cd D:\Git\lab-06-multithreads\cmake-build-debug
+		@set INCLUDE=D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include;D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt
+		@set LIB=D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x86;D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x86;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file12681755643993133712
+	/TP -DBOOST_ALL_NO_LIB=1 -ID:\Git\lab-06-multithreads\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP<<
+	
+	cl /TP -DBOOST_ALL_NO_LIB=1 -ID:\Git\lab-06-multithreads\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
+	cl: Є®¬ ­¤­ п бва®Є  error D8021: ­Ґ¤®ЇгбвЁ¬л© зЁб«®ў®©  аЈг¬Ґ­в "/Werror"
+	
+	
