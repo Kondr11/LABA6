@@ -35,7 +35,8 @@ add_executable(
         ${PROJECT_NAME}
         sources/main.cpp
         sources/HashResolver.cpp
-        sources/main.cpp)
+        sources/main.cpp
+        /tests/test.cpp)
 
 target_include_directories(
         ${PROJECT_NAME}
