@@ -5,6 +5,8 @@ files=`find . -name "*.cpp" -or -name "*.hpp" -or -name ".h" | grep -v "./tools/
 filter=-build/c++11,-runtime/references,-whitespace/braces,-whitespace/indent,-whitespace/comments,-build/include_order
 echo $files | xargs cpplint --filter=$filter
 
+jscpd --mode "weak" --format "cpp" --ignore "*build*/**,tests,include/1/**" .
+
 export CTEST_OUTPUT_ON_FAILURE=true
 # address sanitizer
 #CMAKE_LINKER_OPTS="-DCMAKE_EXE_LINKER='-fuse-ld=gold'"
