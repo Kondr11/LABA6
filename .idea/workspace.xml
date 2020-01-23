@@ -20,9 +20,10 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/include/1" />
   </component>
   <component name="ProjectId" id="1WnNyhO5Uk4oxJOTDdFRNIJpIbH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.has.clang-format" value="true" />
@@ -50,7 +51,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781655043</updated>
-      <workItem from="1579781658426" duration="9770000" />
+      <workItem from="1579781658426" duration="10025000" />
+      <workItem from="1579793872264" duration="551000" />
     </task>
     <servers />
   </component>
@@ -62,7 +64,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

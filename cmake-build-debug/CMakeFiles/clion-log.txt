@@ -1,12 +1,97 @@
 "D:\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\Git\lab-06-multithreads
-CMake Error at CMakeLists.txt:14 (include):
-  include could not find load file:
+-- [hunter] Initializing Hunter workspace (9a3594a61227967fb92159339ba326701b287b19)
+-- [hunter]   https://github.com/cpp-pm/hunter/archive/v0.23.218.tar.gz
+-- [hunter]   -> C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a
+-- The C compiler identification is MSVC 19.16.27034.0
+-- The CXX compiler identification is MSVC 19.16.27034.0
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: C:/.hunter
+-- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: ab7ade2 | Config-ID: c351cc1 ]
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install (ver.: 1.70.0-p0)
+-- [hunter] Building Boost
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/args.cmake
+-- The C compiler identification is MSVC 19.16.27034.0
+-- The CXX compiler identification is MSVC 19.16.27034.0
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: D:/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/Build
+Scanning dependencies of target Boost
+[ 12%] Creating directories for 'Boost'
+[ 25%] Performing download step (download, verify and extract) for 'Boost'
+-- Downloading...
+   dst='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+   timeout='none'
+-- Using src='https://github.com/hunter-packages/boost/archive/v1.70.0-p0.tar.gz'
+-- verifying file...
+       file='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='C:/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+     dst='C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] Performing update step for 'Boost'
+[ 50%] No patch step for 'Boost'
+[ 62%] Performing configure step for 'Boost'
 
-    tools/gate/cmake/HunterGate.cmake
+C:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Build\Boost\Source>call "D:/Microsoft Visual Studio/2017/Community/VC/Auxiliary/Build/vcvarsall.bat" x86 
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.16
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x86'
+Building Boost.Build engine
 
+Failed to build Boost.Build engine.
+Please consult bootstrap.log for further diagnostics.
 
-CMake Error at CMakeLists.txt:16 (HunterGate):
-  Unknown CMake command "HunterGate".
+NMAKE : fatal error U1077: call : С‚СЋС‡С‚РЃСЂв€™С…СЌСЌв€љС‰ СЉСЋС„ "0x1"
+Stop.
+NMAKE : fatal error U1077: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" : С‚СЋС‡С‚РЃСЂв€™С…СЌСЌв€љС‰ СЉСЋС„ "0x2"
+Stop.
+NMAKE : fatal error U1077: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" : С‚СЋС‡С‚РЃСЂв€™С…СЌСЌв€љС‰ СЉСЋС„ "0x2"
+Stop.
+
+[hunter ** FATAL ERROR **] Build step failed (dir: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Build/Boost
+[hunter ** FATAL ERROR **] [Directory:C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost]
+
+------------------------------ ERROR -----------------------------
+    https://docs.hunter.sh/en/latest/reference/errors/error.external.build.failed.html
+------------------------------------------------------------------
+
+CMake Error at C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_error_page.cmake:12 (message):
+Call Stack (most recent call first):
+  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_fatal_error.cmake:20 (hunter_error_page)
+  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_download.cmake:617 (hunter_fatal_error)
+  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/hunter.cmake:403 (hunter_download)
+  C:/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_add_package.cmake:62 (include)
+  CMakeLists.txt:26 (hunter_add_package)
 
 
 -- Configuring incomplete, errors occurred!
+See also "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/CMakeOutput.log".
