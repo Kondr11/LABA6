@@ -6,7 +6,7 @@
 #include <atomic>
 #include <boost/log/trivial.hpp>
 #include <cstdlib>
-#include <picosha2/picosha2.h>
+#include <1/picosha2.h>
 #include <vector>
 
 void enumeration();
