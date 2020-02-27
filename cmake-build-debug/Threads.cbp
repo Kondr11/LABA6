@@ -5,7 +5,7 @@
 		<Option title="Threads"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\tools\;CMake Files\tools\gate\;CMake Files\.hunter\;CMake Files\.hunter\_Base\;CMake Files\.hunter\_Base\Download\;CMake Files\.hunter\_Base\Download\Hunter\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\configs\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\filesystem\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\log\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\system\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\thread\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\GTest\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\find\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\scripts\;CMake Files\.hunter\_Base\9a3594a\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\Boost\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\GTest\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_3rdParty\;CMake Files\cmake-build-debug\_3rdParty\Hunter\;CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\;CMake Files\cmake-build-debug\_3rdParty\Hunter\config-id\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tools\;CMake Files\tools\gate\;CMake Files\.hunter\;CMake Files\.hunter\_Base\;CMake Files\.hunter\_Base\Download\;CMake Files\.hunter\_Base\Download\Hunter\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\modules\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\configs\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\filesystem\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\log\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\system\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\thread\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\find\;CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\scripts\;CMake Files\.hunter\_Base\9a3594a\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\;CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\Boost\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_3rdParty\;CMake Files\cmake-build-debug\_3rdParty\Hunter\;CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\;CMake Files\cmake-build-debug\_3rdParty\Hunter\config-id\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/Git/lab-06-multithreads/cmake-build-debug"/>
@@ -104,9 +104,6 @@
 			<Option target="Threads"/>
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/sources/source.cpp">
-			<Option target="Threads"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/tests/test.cpp">
 			<Option target="Threads"/>
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/CMakeLists.txt">
@@ -373,9 +370,6 @@
 		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/Boost/thread/hunter.cmake">
 			<Option virtualFolder="CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\Boost\thread\"/>
 		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/projects/GTest/hunter.cmake">
-			<Option virtualFolder="CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\projects\GTest\"/>
-		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/find/FindBoost.cmake">
 			<Option virtualFolder="CMake Files\.hunter\_Base\Download\Hunter\0.23.218\9a3594a\Unpacked\cmake\find\"/>
 		</Unit>
@@ -390,21 +384,6 @@
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/lib/cmake/Boost/BoostConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\Boost\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/lib/cmake/GTest/GTestConfig.cmake">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\GTest\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/lib/cmake/GTest/GTestConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\GTest\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/lib/cmake/GTest/GTestTargets-debug.cmake">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\GTest\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/lib/cmake/GTest/GTestTargets-release.cmake">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\GTest\"/>
-		</Unit>
-		<Unit filename="D:/Git/lab-06-multithreads/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/lib/cmake/GTest/GTestTargets.cmake">
-			<Option virtualFolder="CMake Files\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\lib\cmake\GTest\"/>
 		</Unit>
 		<Unit filename="D:/Git/lab-06-multithreads/cmake-build-debug/_3rdParty/Hunter/toolchain/toolchain.info.NOLF">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\"/>

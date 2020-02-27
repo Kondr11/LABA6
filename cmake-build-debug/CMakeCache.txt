@@ -246,9 +246,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//The directory containing a CMake configuration file for GTest.
-GTest_DIR:PATH=C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install/lib/cmake/GTest
-
 //Default cache server
 HUNTER_CACHE_SERVERS:STRING=https://github.com/bmstu-iu8-cpp-sem-3/hunter-cache
 

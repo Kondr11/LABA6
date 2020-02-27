@@ -3,8 +3,9 @@
 #include "Enumeration.hpp"
 
 
-using std::thread;
+
 using std::rand;
+using std::thread;
 
 
 void init()
@@ -35,20 +36,21 @@ void init()
 }
 
 int main(int argc, char *argv[]) {
+    std::cin.tie(nullptr);
     init();
     size_t threadAmount = (argc >= 2)
                           ? boost::lexical_cast<size_t>(argv[1])
-                          : std::thread::hardware_concurrency();
+                          : thread::hardware_concurrency();
 
     BOOST_LOG_TRIVIAL(trace) << "Thread amount " << threadAmount;
 
-    std::vector<std::thread> thrs;
+    std::vector<thread> thrs;
     thrs.reserve(threadAmount);
     for (size_t i = 0; i < threadAmount; i++) {
         thrs.emplace_back(enumeration);
     }
 
-    for (std::thread &thr : thrs) {
+    for (thread &thr : thrs) {
         thr.join();
     }
 

@@ -189,33 +189,6 @@ sources\source.cpp.s:
 	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\sources\source.cpp.s
 .PHONY : sources\source.cpp.s
 
-tests\test.obj: tests\test.cpp.obj
-
-.PHONY : tests\test.obj
-
-# target to build an object file
-tests\test.cpp.obj:
-	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\tests\test.cpp.obj
-.PHONY : tests\test.cpp.obj
-
-tests\test.i: tests\test.cpp.i
-
-.PHONY : tests\test.i
-
-# target to preprocess a source file
-tests\test.cpp.i:
-	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\tests\test.cpp.i
-.PHONY : tests\test.cpp.i
-
-tests\test.s: tests\test.cpp.s
-
-.PHONY : tests\test.s
-
-# target to generate assembly for a file
-tests\test.cpp.s:
-	$(MAKE) -f CMakeFiles\Threads.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Threads.dir\tests\test.cpp.s
-.PHONY : tests\test.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -232,9 +205,6 @@ help:
 	@echo ... sources/source.obj
 	@echo ... sources/source.i
 	@echo ... sources/source.s
-	@echo ... tests/test.obj
-	@echo ... tests/test.i
-	@echo ... tests/test.s
 .PHONY : help
 
 

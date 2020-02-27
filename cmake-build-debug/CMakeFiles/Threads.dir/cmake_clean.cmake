@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Threads.dir/sources/main.cpp.obj"
   "CMakeFiles/Threads.dir/sources/source.cpp.obj"
-  "CMakeFiles/Threads.dir/tests/test.cpp.obj"
   "Threads.exe"
   "Threads.exe.manifest"
   "Threads.lib"

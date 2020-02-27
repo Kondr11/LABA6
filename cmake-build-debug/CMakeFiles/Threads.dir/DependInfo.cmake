@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Git/lab-06-multithreads/sources/main.cpp" "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/Threads.dir/sources/main.cpp.obj"
   "D:/Git/lab-06-multithreads/sources/source.cpp" "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/Threads.dir/sources/source.cpp.obj"
-  "D:/Git/lab-06-multithreads/tests/test.cpp" "D:/Git/lab-06-multithreads/cmake-build-debug/CMakeFiles/Threads.dir/tests/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
